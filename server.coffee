@@ -159,10 +159,10 @@ if Meteor.isServer
 
     _poll: () ->
       if @stopped
-        console.log "Run status: STOPPED"
+        #console.log "Run status: STOPPED"
         return
       else
-        console.log "Run status: Running..."
+        #console.log "Run status: Running..."
 
         time = new Date()
         num = @update(
