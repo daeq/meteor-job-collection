@@ -188,4 +188,4 @@ if Meteor.isServer
             multi: true
           }
         )
-        console.log "Ready fired: #{num} jobs promoted"
+        #console.log "Ready fired: #{num} jobs promoted"
